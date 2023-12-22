@@ -1,0 +1,24 @@
+Open file in Visual Studio Code:
+    open -a /Applications/Visual\ Studio\ Code.app <FileName>
+
+git init
+git add .
+git commit -m "____"
+git status
+git log
+
+Remove from Staging:
+    git rm --cached -r .
+
+Tracking difference between old file and new file
+    git diff <filename>
+
+Restoring old file over new changes
+    git checkout <filename>
+
+Add remote address
+    git remote add origin <address>
+
+Push to that remote address
+    git push -u origin main
+
