@@ -11,10 +11,10 @@ Remove from Staging:
     git rm --cached -r .
 
 Tracking difference between old file and new file
-    git diff <filename>
+    git diff <file Name>
 
 Restoring old file over new changes
-    git checkout <filename>
+    git checkout <file Name>
 
 Add remote address
     git remote add origin <address>
@@ -25,10 +25,15 @@ Push to that remote address
 checking names of all branches
     git branch
 create new branch
-    git branch <branchname>
+    git branch <branch Name>
 switching to another branch 
-    git checkout <branchname>
+    git checkout <branch Name>
 
 creating and switching the branch at same time 
     git checkout -b <branch name>
 
+to merge A to B, switch to B, then:
+    git merge A<branch Name>
+
+Push these to remote, pushing 'origin' to 'main' branch
+    git push origin main
