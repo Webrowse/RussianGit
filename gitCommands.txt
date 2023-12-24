@@ -22,3 +22,13 @@ Add remote address
 Push to that remote address
     git push -u origin main
 
+checking names of all branches
+    git branch
+create new branch
+    git branch <branchname>
+switching to another branch 
+    git checkout <branchname>
+
+creating and switching the branch at same time 
+    git checkout -b <branch name>
+
