@@ -56,6 +56,7 @@ Local Reseting:
     git reset HEAD~1
 Remote Reseting:
     git revert HEAD~1
+
 Cherry-Picking: choose any copy of commit to proceed the HEAD
     git cherry-pick <commit1> <commit2> <commit3>
 But, if Not knowing Hash of commits, Use rebase
