@@ -37,3 +37,8 @@ to merge A to B, switch to B, then:
 
 Push these to remote, pushing 'origin' to 'main' branch
     git push origin main
+
+Move 'head' to the parent(s) of main:
+    git checkout main^
+    git checkout main^^
+    git checkout main~2
