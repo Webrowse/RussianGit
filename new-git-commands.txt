@@ -1,0 +1,3 @@
+git branch -vv
+git branch -a
+git branch -r
